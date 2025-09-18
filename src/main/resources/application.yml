@@ -1,0 +1,30 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/notifs
+
+  mail:
+    host: localhost
+    port: 1025
+    properties:
+      mail.smtp.auth: false
+      mail.smtp.starttls.enable: false
+
+app:
+  mail:
+    allowedRecipients:
+      - artesyalgomas123@gmail.com
+      - mateo.vasquezg@udea.edu.co
+      - correo1@demo.com
+  security:
+    jwt:
+      secret: "supersecretkey1234567890"
+      issuer: "ms-notificaciones"
+      expirationMinutes: 60
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+
