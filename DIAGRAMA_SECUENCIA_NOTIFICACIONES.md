@@ -48,7 +48,7 @@
 
 ## Componentes
 
-1. **Cliente**: Postman, frontend, app móvil
+1. **Cliente**: Postman
 2. **API Gateway**:
     - Endpoint público HTTPS
     - Validación de requests
